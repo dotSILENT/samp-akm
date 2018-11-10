@@ -6,7 +6,8 @@ This means that it cannot send any other keys than it already knows, so this plu
 The server will just reject any connection made with ANYTHING else than the original SA:MP client.
 (unless someone finds a way of generating these keys)
 
-Current number of custom auth keys: **54** out of 256 (keys are repeated to fill the rest)
+Current number of custom auth keys: **54** out of 256 (keys are repeated to fill the rest)  
+**Update**: after releasing this I actually found out that the newest RakSAMP source has the auth key generation code included, although it's not compiled in the latest release. Therefore if someone has compiled RakSAMP themselves, it makes this plugin useless.
 
 ## Installation
 Simply add samp_akm.dll or samp_akm.so to your plugins folder and add them to server.cfg
