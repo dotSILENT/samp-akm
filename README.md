@@ -1,3 +1,5 @@
+**Update: after releasing this I actually found out that the newest RakSAMP source has the auth key generation code included since 2017, although it's not compiled in the latest release. Therefore if someone has compiled RakSAMP themselves, it makes this plugin useless.**
+
 # SA:MP AuthKeyModifier (Anti-RakSAMP)
 This is a very simple plugin I made back in 2015 out of boredom.
 It's main idea is to overwrite the default authorizaton keys (or rather the seed & key pairs).
@@ -7,7 +9,6 @@ The server will just reject any connection made with ANYTHING else than the orig
 (unless someone finds a way of generating these keys)
 
 Current number of custom auth keys: **54** out of 256 (keys are repeated to fill the rest)  
-**Update**: after releasing this I actually found out that the newest RakSAMP source has the auth key generation code included, although it's not compiled in the latest release. Therefore if someone has compiled RakSAMP themselves, it makes this plugin useless.
 
 ## Installation
 Simply add samp_akm.dll or samp_akm.so to your plugins folder and add them to server.cfg
